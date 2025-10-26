@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+</head>
+<body>
+       <h1 align="center">Student registration Form</h1>
+       <hr>
+       <label for="Name">Full Name</label>
+       <input type="text" id="Full Name" name="Full Name" placeholder="Enter your name" required>
+       <br></br>
+       <label for="email">Email</label>
+       <input type="email" name="email" id="email" placeholder="Enter your Email" required>
+       <br></br>
+       <label for="pass">Password</label>
+       <input type="Password" id="Pass" name="pass" placeholder="Enter your password" required>
+       <br></br>
+       <label for="Gender">Gender</label>
+       <input type="Radio" id="male" name="gender" value="male" required>
+       <label for="male">Male</label>
+       <input type="Radio" id="female" name="gender" value="female" required>
+       <label for="female">other</label>
+       <input type="radio" id="other" name="gender" value="other" required>
+       <br></br>
+       <label for="select">Course</label>
+       <select name="select" id="select">
+        <option value="Select Course">Select Course</option>
+        <optgroup label="Undergraduate Courses">
+            <option value="B.Tech">B.Tech</option>
+            <option value="B.Sc">B.Sc</option>
+            <option value="B.Com">B.Com</option>
+            </optgroup>
+            <optgroup label="Postgraduate Courses">
+                <option value="M.Tech">M.Tech</option>
+                <option value="M.sc">M.Sc</option>
+                <option value="M.Com">M.Com</option>
+            </optgroup>
+            </select>
+            <br></br>
+            <label for="tel">Contact No.</label>
+            <input type="tel" id="tel" name="Contact No." placeholder="Enter your phone number" required>
+            <br></br>
+            <label for="Add">Address:</label>
+            <textarea name="text" id="add" rows="5 cols=50" required></textarea>
+            <br></br>
+            <input type="Submit" value="Register">
+            <input type="Reset" value="Clear">
+            <hr>
+            <p align="center">&copy 2025 Student Registration Portal</p> 
+
+</body>
+</html>
